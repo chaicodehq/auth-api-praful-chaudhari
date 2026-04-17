@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
-import { loadEnvFile } from "process";
+// import { loadEnvFile } from "process";
 
-loadEnvFile();
+// loadEnvFile();
 
 /**
  * TODO: Signs a JWT token with the given payload

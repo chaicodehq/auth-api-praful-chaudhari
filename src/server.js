@@ -1,8 +1,8 @@
 import { createApp } from "./app.js";
 import { connectDB } from "./db/connect.js";
-import { loadEnvFile } from "process";
+// import { loadEnvFile } from "process";
 
-loadEnvFile();
+// loadEnvFile();
 
 async function start() {
     try {
